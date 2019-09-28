@@ -1,0 +1,46 @@
+nav {
+    background-color: #607d8b;
+}
+
+nav .brand-logo { 
+    margin-left: 5px;
+    font-size: 1.9rem;
+}
+
+.presentation-container {
+    background-color: #eeeeee;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.presentation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.presentation-img {
+    align-self: center;
+    width: 200px;
+    height: 200px;
+}
+
+@media (min-width: 1024px){
+.presentation-container {
+    margin-top: 20px;
+    flex-direction: row;
+}
+
+.presentation {
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.presentation-img {
+    margin-left: 10px;
+    width: 300px;
+    height: 300px;
+}
+}
