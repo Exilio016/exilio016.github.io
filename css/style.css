@@ -2,6 +2,16 @@ nav {
     background-color: #607d8b;
 }
 
+.btn {
+    background-color: #607d8b;
+}
+.page-footer {
+    background-color: #fff;
+}
+.page-footer .footer-copyright {
+    color: #000;
+}
+
 nav .brand-logo { 
     margin-left: 5px;
     font-size: 1.9rem;
@@ -28,6 +38,7 @@ nav .brand-logo {
 }
 
 .projects {
+    background-color: #eeeeee;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -54,4 +65,15 @@ nav .brand-logo {
     width: 300px;
     height: 300px;
 }
+}
+
+.social-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-links .btn {
+    margin: 0 5px;    
 }
